@@ -1,0 +1,59 @@
+* {
+  font-family: "Arial", "helvetica Nue", Helvetica, sans-serif;
+  color: #364958;
+}
+
+/* Background Image */
+body {
+  margin: 0px;
+  background-color: #d6e2c9;
+  /* background-image: url("../images/hotel-wallpaper/hotel-wallpaper.png"); */
+  overflow: auto;
+}
+
+/* Navbar container */
+nav {
+  /* z-index: 10;
+  position: sticky; */
+  background-color: #3b6064;
+  top: zero;
+  border-bottom: 0.15rem solid #364958;
+}
+
+/* Navbar name badge */
+
+.navbar-brand-center {
+  color: #c9e4ca;
+}
+
+/* Nav Buttons */
+.nav-link {
+  color: #c9e4ca;
+  text-align: center;
+}
+
+/* Hover For Navbar links */
+ul.nav a:hover {
+  color: #fff !important;
+}
+
+/*Marker for selected page. */
+.active {
+  border-top: 6px solid #364958;
+  margin-top: -0.75rem;
+}
+
+/* Main content area. */
+.primaryContent {
+  margin-top: 5rem;
+}
+
+/* On screens that are 575px or less, adjust margin so content isn't hidden by nav. */
+@media screen and (max-width: 775px) {
+  body {
+    margin-top: 12rem;
+  }
+  .active {
+    margin-top: -0.25rem;
+  }
+}

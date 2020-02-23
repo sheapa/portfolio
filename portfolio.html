@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>sheapa portfolio with bootstrap</title>
   </head>
   <body>
@@ -16,29 +17,31 @@
 <body>
     <!-- Responsive NavBar -->
   <div class="container-fluid">
-      <nav class="navbar">
-           <!--Name Badge (Top-Left).-->
-          <div>
-              <h1>Patrick Shea</h1>
-          <div>
-           <ul class="nav navbar-right">
-               <!--Navigation link to about me.-->
-              <li>
-                  <a class="nav-link" href="./index.html">About</a>
-              </li>
-              <!-- Current page place holder link "#".-->
-              <li> 
-                  <a class="nav-link active" href="#">Portfolio</a>
-              </li>
-              <!--Navigation link to contact.-->
-              <li>
-                  <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-           </ul>               
-       </nav>
-  </div>
+    <nav class="titleBar fixed-top">
+        <!--Name Badge (Top-Left).-->
+        <div class="navbar flex-column flex-sm-row">
+            <span class="navbar-brand-center mb-0 h1">Patrick Shea</span>
+        <div>
+        <div>
+            <ul class="nav navbar-center flex-column flex-sm-row">
+                <!-- Current page place holder link "#".-->
+                <li>
+                    <a class="nav-link" href="./index.html">About</a>
+                </li>
+                <!--Navigation link to portfolio.-->
+                <li> 
+                    <a class="nav-link active" href="#">Portfolio</a>
+                </li>
+                    <!--Navigation link to contact.-->
+                <li>
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>  
+         </div>             
+     </nav>
+</div>
   <!-- Primary content container.-->
-  <div class="col-md-8 offset-md-2">
+  <div class="col-md-8 offset-md-2 primaryContent">
     <div class="row">
         <div class="col-sm-12">
             <h2>Portfolio</h2>
