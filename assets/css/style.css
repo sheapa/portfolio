@@ -48,6 +48,10 @@ ul.nav a:hover {
   margin-top: 5rem;
 }
 
+br {
+  display:block
+}
+
 /* On screens that are 575px or less, adjust margin so content isn't hidden by nav. */
 @media screen and (max-width: 775px) {
   body {
